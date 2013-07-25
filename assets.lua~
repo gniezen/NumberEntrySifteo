@@ -12,8 +12,8 @@ function frames(fmt, count)
     return t
 end
 
--- Numbers = image{ frames("images/numbers%d.png", 60),pinned=true}
-Numbers = image{ "numbers.png",pinned=true, width=144, height=24}
+ Numbers = image{ frames("images/numbers%d.png", 60),pinned=true}
+-- Numbers = image{ "numbers.png",pinned=true, width=144, height=24}
 
 
 
